@@ -1,0 +1,208 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+ 
+}
+.main_div
+{
+	margin-top: 20px;
+	/*border: 1px solid black;*/
+    width: 1100px;
+	margin: 20 auto;	
+}
+
+div.header ,div.footer
+{
+	height: 50px;
+	width: 80%;
+	margin: 0 auto;
+	background: #1B5E20;
+	border-radius: 75% 10%;
+}
+
+
+div.body_div
+{
+	height: 480px;
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+div#logo
+{
+	background-image:url('logo.jpg');
+	background-repeat: no-repeat; 
+	background-size: contain;
+	height: 480px;
+	width: 50%;
+	opacity: 0.9;
+	float: right;
+	/*border: 1px solid black;*/
+}
+div.heading
+{
+	/*border: 1px solid black;*/
+	width: 44%;
+	float: left;
+	padding: 80px 10px;
+}
+span#title1
+{
+	display: block;
+	width: 35%;
+	font-size: 48px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 2px;
+	/*border: 1px solid black;*/
+	
+	
+}
+
+span#title2
+{
+	width: 58%;
+	/*border: 1px solid black;*/
+	display: block;
+	font-size: 48px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: 2px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
+.butn
+{
+	width: 180px;
+	margin-top: 80px;
+	margin-left: 90px;
+	height: 55px;
+	font-size: 32px;
+	background: #1B5E20;
+	color: white;
+	font-weight: bold;
+	border-radius: 24PX;
+	border:0px solid #1B5E20;
+	
+}
+.butn:hover
+{
+	color: white;
+	background: #388E3C;
+}
+
+.bodyDiv
+{
+	/*border:1px solid black;*/
+	height: 635px;
+	width: 55%;
+	float: left;
+	min-width: 600px;
+	
+}
+.rightDiv
+{
+	/*border:1px solid black;*/
+	height: 635px;
+	width: 45%;
+	background-image: url('bck.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	min-width: 400px;
+
+}
+
+h1.MainTitle
+{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	/*letter-spacing: 3px;*/
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.inputDiv
+{
+	/*border: 1px solid black;*/
+	height: 60px;
+}
+.inputDiv>input
+{
+	height: 50px;
+	font-size: 24px;
+	width:75%;
+	margin-left: 75px;
+}
+button#addButton
+{
+	float: right;
+	height: 50px;
+	margin-right: 70px;
+	margin-top: -50px;
+}
+
+
+div.listDiv
+{
+	/*text-align: center;
+	border: 1px solid black;*/
+}
+
+div.option
+{
+
+	text-align: center;
+}
+h2#heading3
+{
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+ol
+{
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+}
+ol.list-group
+{
+
+	width: 80%;
+	margin: 0px auto;
+		
+}
+ol.list-group>li
+{
+
+	
+	color: black;
+	
+	
+}
+
+
+
+button#Xbut
+{
+	
+	height: 56px;
+	width: 100px;
+	float: right;
+	margin-right: -30px;
+	margin-top: -11px;
+
+		
+}
+div.option >button
+{
+	height: 45px;
+}

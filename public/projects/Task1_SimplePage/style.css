@@ -1,0 +1,61 @@
+h1
+{
+color: blue;
+font-size: 36px;   
+font-family: sans-serif; 
+}
+
+h2
+{
+ color: blue;
+ background-color: lightgray;
+ font-family:serif;   
+}
+
+.moveAheadFromLeft
+{
+    color: blue;
+    position: absolute;
+    left: 40px;
+}
+.staric
+{
+    color: red;
+}
+#lastLine
+{
+    color: red;
+    font-style: italic;
+}
+#moveToCenter
+{
+    position: absolute;
+    left: 450px;
+}
+
+.tableHeading
+{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.tableAttribute
+{
+    background-color: lightgray;
+    font-family: serif;
+    color: blue;
+    font-size: 26px;
+    
+}
+.even
+{
+    background-color: lightgray;
+}
+#tableSetting
+{
+    border-spacing: 10px;
+}
+td,th
+{
+    padding: 5px;
+}

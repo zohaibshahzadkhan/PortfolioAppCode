@@ -1,0 +1,104 @@
+body
+{
+    background: url('images/background.jpg') no-repeat center center fixed;  
+    background-size: cover;
+}
+div.main
+{
+    width: 79%;
+    background: white;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 10%; 
+    border-top-left-radius: 150px 40px;
+    border-top-right-radius: 50px 180px ;
+    box-shadow:2px 2px 9px cyan;
+}
+.topSection
+{
+    width:85%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.socialIcons
+{
+    width: 20px;
+    height: 20px;
+}
+h2:first-letter
+{
+   font-size: 26px; 
+}
+.subMainImg
+{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+.socialIcons:hover
+{
+transform: scale(3);
+}
+
+h2
+{
+    color: deeppink;
+    width: 100%;
+}
+ul
+{
+    position: relative; 
+    left: 400px;
+    display: inline;    
+}
+li,h2
+{
+    
+    display: inline;
+}
+.subSection
+{
+
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.subSection h2
+{
+    border-bottom: 1px dashed deeppink;
+    display: block;
+    padding-bottom: 10px;
+
+}
+div.parent
+{
+ width:300px;
+ float:left;  
+ margin-left: 10%;
+ box-shadow: 2px 2px 9px cyan;
+ display: inline-block;
+}
+.parent img
+{
+    display: block;
+    margin: auto;
+}
+.child{
+    display: none;
+    color: white;
+}
+
+#parent1{
+    background: url(images/roomBackGround.jpg);
+}
+
+#parent2{
+    background: url(images/resTaurantBackGround.jpg);
+}
+
+ #parent1:hover #show2, #parent2:hover #show3 {
+            display: block;
+
+}

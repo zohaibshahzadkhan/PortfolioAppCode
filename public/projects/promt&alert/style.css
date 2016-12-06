@@ -1,0 +1,61 @@
+.Top-block
+{
+width: 88%;
+min-width: 1200px;
+margin: 0 auto;
+min-height: 346px;
+/*border: 1px solid black;*/
+margin-top: 100px;
+   
+}
+
+.Heading
+{  
+    width: 100%;
+    height: 120px;
+    text-align: center; 
+    /*border: 1px solid black; */
+}
+
+.sub-block
+{
+    width: 24%;
+    border: 1px solid black;
+    height: 188px;
+    margin-left: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    
+
+}
+#color1
+{
+    
+    background:  #32db64;
+}
+#color1:hover,#color2:hover,#color3:hover,#color4:hover
+{
+    
+    background:  yellow;
+    color: black;
+    opacity: 0.8;
+}
+
+#color2
+{
+    background: #f53d3d;
+}
+
+#color3
+{
+    
+    background: #387ef5; 
+}
+
+#color4
+{
+    background: purple;
+}

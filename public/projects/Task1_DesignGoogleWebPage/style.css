@@ -1,0 +1,148 @@
+
+.setwidth
+{
+    width: 1480px;
+}
+
+div.header
+{  
+    height: 120px;
+ 
+}
+div.body
+{
+    height: 547px;
+    
+    
+}
+div.footer
+{
+    height: 33px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    
+    
+}
+
+p.bodylogo
+{
+    background-image: url(images/glogo.jpg);
+    background-size: 320px,120px;
+    width: 320px;
+    height: 150px;
+    position: absolute;
+    left: 580px;
+    top: 150px;  
+ 
+}
+
+
+.nav
+{
+ position: absolute;
+ left: 1066px;
+}
+
+a.rmUnderline
+{
+    text-decoration: none;
+    color: black;
+    
+}
+* a:hover
+{
+text-decoration: underline;    
+}
+* a:visited
+{
+    text-decoration: none;
+    color: gray;
+}
+* a:active{
+    text-decoration: none;
+}
+span.subtext
+{
+    position: absolute;
+    left: 254px;
+    top: 120px;
+    font-size: 16px;
+    color:#4285f4 ;
+    font-family:roboto-regular, arial, sans-serif;
+}
+.search
+{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    top: 340px;
+    left: 520px;
+    border: 1px solid #4285f4;
+}
+#micimage
+{
+    height: 30px;
+    position: absolute;
+    top: 345px;
+    left: 990px;  
+}
+.buttonPlacement
+{
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;   
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 630px;
+    
+}
+.buttonPlacement1
+{
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;   
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    
+}
+#text
+{
+    position: absolute;
+    top:450px;
+    left:660px;
+}
+
+span.footerRight
+{
+    position:absolute;
+    top: 688px;
+    left: 760px;
+   width: 728px; 
+   text-align: right;
+}
+span.footerLeft
+{
+    
+    position:absolute;
+    top: 688px;
+    width: 740px;
+}
+.border
+{
+    height: 707px;
+    width: 1480px;
+}
+

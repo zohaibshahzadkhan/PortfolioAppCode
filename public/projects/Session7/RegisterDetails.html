@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link type="text/css"  rel="stylesheet" href="../Session7/bootstrap-3.3.6/css/bootstrap.min.css">
+    <link type="text/css"  rel="stylesheet" href="../Session7/custom.css">
+</head>
+<body id="bodycolor">
+    <div class="container">
+            
+            <!-- Header Section -->  
+        <div class="col-lg-9 col-lg-offset-3" >        
+            <h1 id="fontcolor">Welcome to my site!<small id="smallfont">I think you'll like it. </small></h1><br />
+        </div>
+        
+        <div class="col-lg-6 col-lg-offset-3">
+            <fieldset>
+            <legend id="legendcolor">Registeration details</legend>
+            
+            <form role="form">
+                <div class="form-group">
+                    <label id="fontcolor" for="Universityname">University Name</label>
+                    <input  id="universityname" class="form-control" type="text" name="universityName" maxlength="25" placeholder="Enter your university name" required="required">   
+                </div>
+                <div class="form-group">
+                     <label id="fontcolor" for="institutename">Institute Name</label>
+                     <input id="institutename" class="form-control" type="text" name="instituteName" maxlength="6" placeholder="Enter your institute name">   
+                </div>
+                <div class="form-group">
+                    <label id="fontcolor" for="branchname">Branch Name</label>
+                    <select id="branchname" class="form-control" type="text" name="branchName" >
+                         <option>Karachi</option>
+                         <option>Islamabad</option>
+                    </select>   
+                </div>
+                <div class="form-group">
+                    <label id="fontcolor" for="degree">Degree</label>
+                     <select  id="degree" class="form-control" type="text" name="degree">
+                         <option value="graduate">Graduate</option>
+                         <option value="undergraduate">Under-Graduate</option>  
+                     </select> 
+                </div>
+                <label id="fontcolor" for="gender">Gender</label>
+                <div id="gender"> </div>
+               
+                <div class="row col-lg-9 col-lg-offset-3">
+                    
+                    <div id="fontcolor" class="form-group col-lg-3 col-lg-pull-3">
+                     <label>Male<input class="form-control" type="radio" name="gender" value="male"></label>
+                    </div>
+                    <div id="fontcolor" class="col-lg-3 col-lg-pull-2">
+                     <label>Female<input class="form-control" type="radio" name="gender" value="female"></label>
+                    </div>
+                    
+                </div>  
+                
+                <div class="form-group">
+                     <label id="fontcolor" for="date">Select Date</label>
+                     <input  id="date" class="form-control" type="date" name="date" >   
+                </div>
+                <div class="form-group">
+                     <label id="fontcolor" for="weburl">Website URL</label>
+                     <input id="weburl" class="form-control" type="url" name="universityName" placeholder="Enter your website URL">   
+                </div>
+                <label id="fontcolor" for="language">Language</label>
+                <div id="language"></div>
+                <div id="fontcolor" class="row col-lg-9 col-lg-offset-3">
+                    <div class=" form-group col-lg-3 col-lg-pull-3">
+                        <label>English<input class="form-control" type="checkbox" name="language" value="english" checked="checked"></label>
+                    </div>
+                    <div class=" form-group col-lg-3 col-lg-pull-2">
+                        <label>NonEnglish<input class="form-control" type="checkbox" name="language" value="nonenglish"></label>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="form-group">
+                    <label id="fontcolor" for="address">Address</label>
+                    <textarea id="address" class="form-control" name="address" rows="4" placeholder="Enter your address"></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label id="fontcolor" for="resume">Upload Resume</label>
+                    <input id="resume" class="form-control"  type="file" name="usersResume" >
+                </div>
+                
+                <div class="form-group">
+                    <button class="btn-primary btn-lg col-lg-6 col-lg-push-3"  type="submit" value="register">Register Now </button>
+                </div>
+                
+                
+            </form>
+            
+            </fieldset>
+            
+        </div>
+        
+    </div>
+    
+    
+    
+</body>
+</html>

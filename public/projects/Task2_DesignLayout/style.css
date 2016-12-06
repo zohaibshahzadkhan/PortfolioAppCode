@@ -1,0 +1,398 @@
+div.mainWrapper
+{
+    height: 100%;
+    width: 100%;
+}
+div.header
+{
+    width: 100%;
+    height: 300px;
+    background-image: url("Images/logo.jpg");
+    margin: 2px auto 2px auto;
+    border-radius: 10px;
+}
+div.bodyWrapper
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+   
+}
+div.mainLeftSidebar
+{
+    width: 19%;
+    display: inline-block;
+    height: 100%;
+    min-width:250px;
+    background: silver;
+    padding-top: 70px;
+    padding-bottom: 110px;
+}
+
+div.mainRightSidebar
+{
+    width:80%;
+    height: 100%;   
+    display: inline-block;
+    
+}
+div.leftContentOfRS
+{
+
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    min-width:250px;
+    background-color:white;  
+    margin: 0px 8px;
+    min-width:262px;
+
+}
+span#spanTitle
+{
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    padding: 2px 28px;  
+    
+}
+div.articleDiv
+{
+    width: 96%;
+    margin-left: 3px;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: darkblue;
+}
+div.articleSubdiv
+{
+    background: silver;
+    margin-top: 12px;
+    width: 98%;
+    margin-bottom: 3px;
+    margin-left: 2.5px;
+}
+div.vedioCategories
+{
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px;
+    width: 91%;
+    border-radius: 15px;
+    background: darkblue;
+    color: white;
+    font-size: 1.4em;
+    margin-left: 3px;
+    margin-top: 70px;
+}
+div.search
+{
+    width: 98%;
+    margin-top: 60px;
+    margin-left:3px;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    background: darkblue;
+    
+}
+div.searchsubdiv
+{
+    width: 86%;
+    margin: 8px 2px 2px 2px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 20px ;
+    background: silver;
+}
+div.rightContentOfRS
+{
+    
+    width: 27%;
+    min-width:270px;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: skyblue; 
+    padding-top: 7px;   
+}
+div.rightContentOfRSTitle
+{
+    width: 95%;
+    height: 70px;
+    margin: 15px 5px;    
+}
+div.books
+{
+    width: 98%;
+    height: 100%;
+    margin-left: 3px;
+    margin-top: 60px;
+    padding: 20px 0px;
+    background: silver;
+}
+div.books>table
+{
+    padding: 30px 3px 50px 3px;
+}
+
+
+div.rightContentOfRSTitleLs
+{
+    width: 40%;
+    height: 70px;
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+
+
+div.rightContentOfRSTitleRs
+{
+    width: 40%;
+    height: 70px;
+    padding-left: 25px;
+    display: inline-block;
+    
+}
+div.content
+{
+    width: 96%;
+    margin: 30px 10px 70px 10px;
+    padding-top: 10px;
+    
+}
+h1
+{
+    background: cornflowerblue;
+    margin: 25px 20px;
+    text-align: center;
+}
+h3
+{
+    margin-left: 1em;
+    color: blue;
+    text-decoration: underline;
+    display: inline;
+
+}
+
+.subheadingSpan
+{
+    color:gray;
+    
+}
+.subheadingSpan1
+{
+    margin-left: 20px;
+    color:gray;
+}
+.contentPara
+{
+    margin-left: 20px;    
+}
+.description
+{
+    font-weight: bold;
+    font-size:1em;
+}
+p.contentDetail
+{
+    margin-left: 35px;
+}
+img.setImage
+{
+    width: 55%;
+    height: 15%;
+    float: right;
+    margin:0px 30px;
+}
+img.titleImage
+{
+    width: 80%;
+    height: 70px;
+    
+}
+iframe
+{
+    width: 38%;
+    height: 155px;
+    float: right;
+    margin:10px 30px;
+}
+table.leftSideTable
+{
+    width: 100%; 
+    height: auto;
+    border-spacing: 0.3em;  
+    background: silver;
+      
+}
+td.leftSideTableRow
+{
+  border-bottom: 2px solid black;
+}
+table.rightsideTable
+{
+    width: 100%; 
+    height: auto;
+    border-spacing: 0.3em;
+    margin-top: 10px;
+    
+}
+table.rightsideTable tr
+{
+    background: lightcyan;
+    
+}
+table.rightsideTable td
+{
+    padding:5px 0px 5px 20px;
+
+}
+
+a.TitleLink1
+{
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left:  40px;
+    text-decoration: none;
+}
+
+
+a.TitleLink2
+{
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left:  76px;
+    text-decoration: none;
+}
+a
+{
+color: blue;
+font-weight: bold;
+text-align: left;
+font-family: sans-serif;
+
+}
+a:hover
+{
+    color: black;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a.anchor1
+{
+    text-decoration: none;
+    color: black;
+}
+a.anchor1:hover
+{
+color: darkblue;
+font-size: 1.1em;
+
+}
+span.RsidebarTitles
+{
+    font-size: 1.6em;
+}
+div#liveChat
+{
+    border-radius: 8% 8% 0% 0%;
+    background: darkblue;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid black;
+    height: 250px;
+    font-weight: bold;
+    margin:15px 5px;
+
+}
+div#liveChatSubdiv1
+{
+    background: lightskyblue;
+    width: 99%;
+    height: 210px;
+    margin:2px 2px 0px 2px;
+    padding-top: 4px;
+    
+}
+div#liveChatSubdiv2
+{
+    background: mediumblue;
+    border-radius: 13px;
+    margin: 15px 15px ;
+}
+
+span#livehelp
+{
+    color: darkorange;
+    font-size:1.5em;
+    font-weight: bold;
+}
+span#online
+{
+    color: lawngreen;
+    font-size:1em;
+    font-weight: bold;
+}
+span#aboutSite
+{
+    color: darkblue;
+    text-align: left;
+}
+span.setText
+{
+
+    font-size: 1.5em;
+    padding:0px 3px 10px 3px;
+    margin-top: 20px;
+    height: 100%;
+    font-weight: bold;
+    margin-left: 18px;
+    text-shadow: 4px 4px 8px white;
+
+
+}
+span#searchTitle
+{
+    color: white;
+    text-align: center;
+    width: 96%;
+    font-size: 1.6em;
+    padding-left: 68px;
+    
+}
+input.textbox
+{
+    height: 18px;
+    border-radius: 8px;
+}
+input.button
+{
+    background: green;
+    color: white;
+    border-radius: 8px;
+    height: 28px;
+    width: 120px;
+    font-size: 1em;
+}
+.button:hover
+{
+    font-size: 1.3em;
+    height: 34px;
+    background: darkorange;
+}
+ul>li
+{
+    list-style-type: none;
+}

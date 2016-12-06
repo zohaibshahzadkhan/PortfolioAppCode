@@ -1,0 +1,187 @@
+@font-face
+{
+    font-family: 'jonquilles';
+    src: url('font/Jonquilles.ttf');  
+}
+span#redTitle
+{
+    color: red;
+    font-size: 5em;
+    font-family: jonquilles, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span#brownTitle
+{
+    color: brown;
+    font-size: 5em;
+    font-family: jonquilles, Verdana, Geneva, Tahoma, sans-serif;
+}
+span#subTitle
+{
+    color: chocolate;
+    font-size: 1.2em;
+    
+}
+div.headerImage
+{
+    height: 1000px;
+}
+div.headerLeftdiv
+{
+    
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 60px;
+    background-color: #F5293C;
+    margin-right: 40px;
+    margin-left:50px;
+    color: white;
+    max-width: 300px;
+    min-width: 300px;
+    border: 1px solid black;
+
+}
+
+div.headermiddlediv
+{
+    
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: #EF912A;
+    margin-right: 40px;
+    margin-left:40px;
+    color: white;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+div.headerRightdiv
+{
+    
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: #CABD1C;
+    margin-right: 40px;
+    margin-left:40px;
+    color: white;
+    max-width: 300px;
+    min-width: 300px;
+    border: 1px solid black;
+}
+p.circleText
+{
+    margin-top: 40px;
+    font-size: 1.4em;
+    text-align: center;
+}
+span.circleTextTitle
+{
+    font-family: jonquilles;
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+    
+}
+span.headerTitle
+{
+    color: orange;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+span.spanSubTitle
+{
+    color: brown;
+    font-size: 2.5em;
+}
+p#headerPara
+{
+    padding-top: 100px;
+    padding-left: 50px;
+    color: brown;
+}
+ul>li
+{
+    list-style-type: none;
+    font-size: 1.3em;
+}
+
+
+div.middleRow
+{
+
+    background: #CDB988;
+    padding-bottom: 4em;
+    margin-top: 8em;
+    min-width: 400px;
+}
+div.middleRowphotodiv
+{
+    border-radius: 50%;
+    margin-left:60px;
+    margin-top: 70px;
+    min-width: 220px;
+    max-width: 220px;
+    
+    
+
+}
+div.middleRowtextdiv
+{
+    margin-top: 80px;
+    margin-left: 10px;
+    color: #FEFEF5;
+}
+div.lowerRow
+{
+
+margin-top: 80px;
+}
+span.lowerROwTitle
+{
+font-family:jonquilles;
+font-size: 2.5em;
+letter-spacing: 0.1em;
+font-weight: bold;
+color: saddlebrown;
+ 
+}
+div.lowerRowLeftdiv
+{
+    border-right: 1px solid lightgray;
+    padding-left: 30px;
+    
+   
+}
+div.lowerRowMiddlediv
+{
+    border-right: 1px solid lightgray;
+    padding-left: 40px;
+    
+}
+div.lowerRowRightdiv
+{
+    padding-left: 40px;
+    
+    
+}
+
+p.setfont
+{
+    padding-top: 2em;
+    font-size: 1.3em;
+
+}
+h3
+{
+    color: #C89C1E;
+}
+div.footer
+{
+    background: #CDB988;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 2em;
+    margin-top: 15px;
+}

@@ -1,0 +1,383 @@
+
+body
+{
+ //background: darkkhaki;
+   
+}
+table
+{
+    width: 100%;
+}
+/*nav.navbar-default
+{
+    width: 100%;
+    height: 90px;
+
+    background: black;
+    margin: 0px auto;
+    //margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    
+    
+    
+}*/
+
+ul.navbar-nav>li
+{
+ font-size: 16px;
+ padding-left: 15px;
+ padding-right: 15px;
+  height: 70px;
+}
+ul.navbar-nav> li:hover
+{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+
+}
+div.portfolioSection
+{
+    background:url('images/portfolio1.jpg') center center fixed;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 1300px;
+    margin-top: -27px;
+    
+    
+    
+}
+span.glyphicon-globe
+
+{
+    font-size:500%;
+    color: lightseagreen;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+    //min-width: 1000px;
+}
+
+span.glyphicon-refresh
+{
+    font-size: 500%;
+    color: dodgerblue;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+}
+span.glyphicon-phone
+{
+    font-size: 500%;
+    color: greenyellow;
+    margin-top:16px;
+    margin-bottom: 16px;
+    padding-left: 35%;
+}
+
+span.glyphicon-blackboard
+{
+    font-size: 500%;
+    color: darkorchid;
+    margin-top:16px;
+    padding-left: 35%;
+    margin-bottom: 16px;
+}
+
+span.glyphicon-knight
+{
+    font-size: 500%;
+    color: mediumvioletred;
+    margin-top:16px;
+    padding-left: 35%;
+    margin-bottom: 16px;
+}
+div.servicesSection
+{
+    
+
+    width: 100%;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:-20px; 
+    min-height: 1300px;
+    background: url('images/service.jpg');
+    background-size:cover;
+    
+    
+    
+}
+div.serviceSubDiv
+{
+    min-height: 680px;
+    width: 18%;
+    opacity: 1;
+    display: inline-block; 
+    margin: 0px 10px 100px 0px;
+    min-width: 250px;
+    /*background-color: rgba(235,81,0,0.5);*/
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    
+    
+}
+.serviceDetail 
+{
+    padding-left:10px;
+    
+
+}
+.serviceSubDiv:hover
+{
+    background-color: rgba(235,81,0,0.5);
+}
+.serviceDetail li:hover
+{
+    color: skyblue;
+
+}
+
+tr.serviceSecRow1>td
+{
+     text-align: center;
+     padding: 2%;
+
+}
+
+tr.serviceSecRow2>td
+{
+    
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+              
+}
+
+tr.serviceSecRow3>td
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    
+    
+}
+p.portfolio
+{
+    text-align: center;
+    font-size: 18px;
+    color:black;
+    
+}
+div.subSection
+{
+
+    
+    width: 31%;
+    display: inline-block;  
+    margin: 20px 25px 100px 0px;
+    min-width: 370px;
+    min-height: 400px;
+    /*border-radius: 50%;*/
+    border-spacing: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+   
+}
+.one1:hover 
+{
+    background-color: rgba(135,81,0,0.5);
+}
+
+.two:hover
+{
+    background-color: rgba(15,81,0,0.5);
+}
+
+.three:hover
+{
+    background-color: rgba(185,51,0,0.5);
+}
+
+.four:hover
+{
+    background-color: rgba(235,181,0,0.5);
+}
+
+.five:hover
+{
+    background-color: rgba(115,181,10,0.5);
+}
+
+.six:hover
+{
+    background-color: rgba(235,250,100,0.5);
+}
+
+.seven:hover
+{
+    background-color: rgba(125,181,100,0.5);
+}
+
+.eight:hover
+{
+    background-color: rgba(235,281,10,0.5);
+}
+td.setImage1
+{
+    height: 350px;
+    width: 286px;
+    background: url('images/p1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+
+    
+}
+
+td.setImage2
+{
+    height: 350px;
+    width: 286px;
+    background-image: url('images/submarine.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+td.setImage3
+{
+    height: 350px;
+    width: 286px;
+    background-image: url('images/Ecommerce.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+td.setImage4
+{
+    height: 350px;
+    width: 200px;
+    background: url('images/p1.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+td.setDescription
+{
+    text-align: center;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 60px; 
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+
+    /*border-radius: 30% 30%;*/
+    
+}
+
+div.aboutUsSection
+{
+    margin-top: -20px;
+    width: 100%;
+    min-height: 1300px;
+    display: block;
+    background: url(images/01.jpg) center center fixed;
+    background-size: cover;
+    
+}
+
+
+div.aboutUsView>img
+{
+    /*border-radius: 50%;*/
+    width: 70%;
+    /*margin-top: 10%;*/
+    margin-left: 10%;
+    margin-right: 10%;
+    /*margin-bottom: 10%;*/
+    height: 600px;
+    
+}
+p.Teamdescrp
+{
+    /*padding-left: 310px;*/
+    /*margin-top: -240px;*/
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+p.Teamdescrp:first-letter
+{
+    font-size: 24px;
+    color: lightcoral;
+}
+.TeamRole
+{   width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    /*background: white;*/
+    margin-bottom: 10%;
+
+}
+.aboutUsView
+{
+    
+    width: 80%;
+    height: 850px;
+    display: inline-block;
+    margin-left:10%;
+    min-width: 264px;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10%;
+   
+    
+}
+/*.aboutUsView>img:hover
+{
+    
+
+}*/
+.contactUs
+{
+    width: 100%;
+    height: 649px;
+    background:url("images/footer1.png") ;
+    background-size: cover;
+    padding-top: 10px;
+    color:black;
+    font-weight: bold;
+
+}
+.contactUs>p
+{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: -70px;
+}
+
+form
+{
+    display: none;
+}
+
