@@ -56,16 +56,121 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.navbar-inverse
+{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.nav > li > a
+{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: white;
+}
+body>section
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: both;
+}
+section#slider
+{
+    background-color: #f5f5f5;
+    max-height: 710px;
+}
+section#slider img 
+{
+    margin:  0 auto;
+}
+h1,h2
+{
+    color: #15365b;
+    margin-bottom: 30px;
+}
+h1:after,h2:after
+{
+    content: "";
+    height: 5px;
+    width:60px;
+    background-color:#15365b;
+    display: block;
+    margin: 0 auto ;
+    margin-top: 10px; 
+}
+section#about
+{
+    background-color: #f5f5f5;
+}
+div.blue-circle
+{
+    width: 100%;
+    background-color: #15365b;
+    padding-bottom: 100%;
+    border-radius: 50%;   
+    -moz-border-radius: 50%;   
+    -webkit-border-radius: 50%;
+     margin: 0 auto;   
+}
 
+div.blue-circle-WhatWeDo
+{
+    width: 70%;
+    background-color: #15365b;
+    padding-bottom: 70%;
+     margin: 0 auto;   
+}
+.item-menu
+{
+    margin-bottom: 30px;
+}
+section#menu h3 
+{
+    color: #15365b;
+    text-transform: uppercase;
+}
 
-
-
-
-
-
-
-
-
+section#parallax
+{
+    height: 600px;
+    background-image: url(../img/slider/pickle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+section#contactUs
+{
+    padding-bottom: 0px;
+    background-color: #1a3d61;
+}
+section#contactUs>h1
+{
+    color: #ffffff;
+}
+section#contactUs>h1:after
+{
+    background-color: #ffffff;
+}
+section#contactUs input,section#contactUs textarea{
+    min-height:50px;
+    margin-bottom: 20px;
+    background-color: #1a3d61;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+}
+section#contactUs textarea
+{
+min-height: 200px;
+}
+section#contactUs input.btn
+{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 5px 50px;
+    font-size: 1.4em;
+    color: #1a3d61;
+}
 
 
 
